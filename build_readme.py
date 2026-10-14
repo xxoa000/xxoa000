@@ -1,6 +1,7 @@
 import html
 import json
 import os
+import subprocess
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import quote
