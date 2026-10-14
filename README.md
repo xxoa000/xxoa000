@@ -1,9 +1,8 @@
 ## Hi there 👋
+<img alt="mysql" src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
 <!--
 **xxoa000/xxoa000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-<img alt="Static Badge" src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-
 
 Here are some ideas to get you started:
 
