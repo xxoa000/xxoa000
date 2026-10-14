@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 <table>
 <tr>
 <td width="33%" valign="top">
-<h3>Recent commits</h3>
+<h3>Recent releases</h3>
 <!-- RELEASES:START -->
 <p>릴리스 목록 준비 중...</p>
 <!-- RELEASES:END -->
