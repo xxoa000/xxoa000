@@ -26,10 +26,15 @@ Here are some ideas to get you started:
 
 | 날짜 | 태그 | 제목 |
 | --- | --- | --- |
-| 2026-10-13 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3f803280d84c81dba085f4387cfe5357) |
-| 2026-10-09 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3f403280d84c8165b230f9ede8b1d1c2) |
-| 2026-10-05 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3f103280d84c818490c4c16a5da77d27) |
-| 2026-10-02 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3ed03280d84c81fabdc1e92ae21bfd2d) |
-| 2026-09-30 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3ea03280d84c819a8be0f0bd2b094a52) |
+| 2026-09-28 | 팀프로젝트, 파이썬 | [Report 기능 개발](https://satin-jaw-c6c.notion.site/Report-3e903280d84c80aeaf36f88c6b6b1ed9) |
+| 2026-09-22 | 팀프로젝트, 파이썬 | [Posts 테이블에 status 추가](https://satin-jaw-c6c.notion.site/Posts-status-3e303280d84c805c9c7bf8428c63ac45) |
+| 2026-09-16 | 팀프로젝트, 인프라 | [인프라 수업 9.16](https://satin-jaw-c6c.notion.site/9-16-3dd03280d84c80109215f422d7896098) |
+| 2026-09-15 | 팀프로젝트, 파이썬, AI | [AI 무료 특강 9.15](https://satin-jaw-c6c.notion.site/AI-9-15-3dc03280d84c80dbb733ddcde99209d4) |
+| 2026-09-07 | 팀프로젝트, 파이썬 | [코드리뷰 9.07](https://satin-jaw-c6c.notion.site/9-07-3d403280d84c8004a5e4d648c8f4f5b4) |
+| 2026-09-05 | 팀프로젝트, 파이썬 | [R2 스토리지에 이미지 저장](https://satin-jaw-c6c.notion.site/R2-3d203280d84c808b9ddcfb37785bee12) |
+| 2026-09-02 | 팀프로젝트, 파이썬 | [이미지 변환 기능](https://satin-jaw-c6c.notion.site/3cf03280d84c806cb4cfe4eb417013c6) |
+| 2026-09-01 | 팀프로젝트, 파이썬 | [사용자별 필터링 설정 (폐기)](https://satin-jaw-c6c.notion.site/3ce03280d84c801dbe3ad270d261f452) |
+| 2026-08-31 | 팀프로젝트, 파이썬 | [DB 저장 → APScheduler 라이브러리 사용](https://satin-jaw-c6c.notion.site/DB-APScheduler-3cb03280d84c8055bed3eec066b2fe2c) |
+| 2026-08-26 | 팀프로젝트, 파이썬 | [오프 미팅](https://satin-jaw-c6c.notion.site/3c803280d84c8008ae4ae0d6bb50a5a3) |
 
 <!-- NOTION-POSTS:END -->
