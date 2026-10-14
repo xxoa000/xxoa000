@@ -86,7 +86,7 @@ def main():
     result = notion_api(
         f"data_sources/{sources[0]['id']}/query",
         {
-            "page_size": 10,
+            "page_size": 6,
             "filter": {
                 "and": [
                     {
