@@ -253,6 +253,13 @@ def main():
         + original[end_index:]
     )
 
+    updated = replace_section(
+        updated,
+        "<!-- TIL:START -->",
+        "<!-- TIL:END -->",
+        build_til(),
+    )
+
     if updated != original:
         readme.write_text(updated, encoding="utf-8")
         print("README 업데이트 완료")
