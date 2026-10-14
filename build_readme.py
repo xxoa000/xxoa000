@@ -65,12 +65,16 @@ def main():
         {
             "page_size": 10,
             "filter": {
-                "property": "날짜",
-                "date": {"is_not_empty": True},
-            },
-            {
-                "property": "태그",
-                "multi_select": {"does_not_contain": "운동기록"},
+                "and": [
+                    {
+                        "property": "날짜",
+                        "date": {"is_not_empty": True},
+                    },
+                    {
+                        "property": "태그",
+                        "multi_select": {"does_not_contain": "운동기록"},
+                    },
+                ],
             },
             "sorts": [
                 {"property": "날짜", "direction": "descending"}
