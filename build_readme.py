@@ -55,7 +55,6 @@ def make_badge(tag_name, index):
     return (
         f'<img alt="{escape(tag_name)}" '
         f'src="{escape(badge_url)}" '
-        'height="16" align="center">'
     )
 
 
