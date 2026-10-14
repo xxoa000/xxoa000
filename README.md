@@ -42,7 +42,8 @@ Here are some ideas to get you started:
 <td width="33%" valign="top">
 <h3>TIL</h3>
 <!-- TIL:START -->
-<p>TIL 목록 준비 중</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/62e906d6cc99218a39d15ee338d14963bbbf8628/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
+<p><a href="https://github.com/xxoa000/TIL">More on TIL</a></p>
 <!-- TIL:END -->
 </td>
 </tr>
