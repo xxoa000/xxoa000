@@ -19,3 +19,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+### 📚 최근 학습 기록
+
+<!-- NOTION-POSTS:START -->
+노션 학습 기록을 불러올 예정이야.
+<!-- NOTION-POSTS:END -->
