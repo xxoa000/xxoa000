@@ -244,6 +244,11 @@ def main():
         else "<p>표시할 학습 기록이 없음.</p>"
     )
 
+    content += (
+        f'\n<p><a href="{PUBLIC_SITE}/{DATABASE_ID}">'
+        "More on NOTION</a></p>"
+    )
+
     # HTML 표 안에서 Markdown으로 해석되지 않도록 빈 줄 없이 삽입
     updated = (
         original[:start_index]
