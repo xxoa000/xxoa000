@@ -140,6 +140,76 @@ def replace_section(text, start, end, content):
 
     return text[:left] + "\n" + content + "\n" + text[right:]
 
+def build_recent_releases():
+    # 릴리스를 표시할 프로젝트
+    repositories = [
+        "xxoa000/topick",
+    ]
+
+    releases = []
+
+    for repository in repositories:
+        page_number = 1
+
+        while True:
+            request = Request(
+                f"https://api.github.com/repos/{repository}/releases"
+                f"?per_page=100&page={page_number}",
+                headers={
+                    "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                    "Accept": "application/vnd.github+json",
+                    "User-Agent": "xxoa000-profile-readme",
+                },
+            )
+
+            try:
+                with urlopen(request, timeout=30) as response:
+                    items = json.load(response)
+            except HTTPError as error:
+                raise RuntimeError(
+                    f"{repository} 릴리스 조회 오류: {error.code}"
+                ) from None
+
+            for release in items:
+                if release["draft"] or release["prerelease"]:
+                    continue
+
+                releases.append({
+                    "repository": repository,
+                    "tag": release["tag_name"],
+                    "url": release["html_url"],
+                    "date": release["published_at"],
+                })
+
+            if len(items) < 100:
+                break
+
+            page_number += 1
+
+    releases.sort(key=lambda release: release["date"], reverse=True)
+
+    entries = []
+
+    for release in releases[:5]:
+        project = release["repository"].split("/")[-1]
+        title = f"{project} {release['tag']}"
+
+        entries.append(
+            f'<p><a href="{escape(release["url"])}">'
+            f'{escape(title)}</a>'
+            f' - {escape(release["date"][:10])}</p>'
+        )
+
+    if not entries:
+        entries.append("<p>공개된 정식 릴리스가 없음.</p>")
+
+    entries.append(
+        '<p><a href="https://github.com/xxoa000/topick/releases">'
+        "More recent releases</a></p>"
+    )
+
+    return "\n".join(entries)
+
 def main():
     readme = Path("README.md")
     original = readme.read_text(encoding="utf-8")
@@ -263,6 +333,13 @@ def main():
         "<!-- TIL:START -->",
         "<!-- TIL:END -->",
         build_til(),
+    )
+
+    updated = replace_section(
+        updated,
+        "<!-- RELEASES:START -->",
+        "<!-- RELEASES:END -->",
+        build_recent_releases(),
     )
 
     if updated != original:
