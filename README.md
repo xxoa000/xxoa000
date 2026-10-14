@@ -37,6 +37,7 @@ Here are some ideas to get you started:
 <p><a href="https://satin-jaw-c6c.notion.site/AI-9-15-3dc03280d84c80dbb733ddcde99209d4">AI 무료 특강 9.15</a> - <img alt="팀프로젝트" src="https://img.shields.io/badge/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-6366F1?style=flat-square" height="16"></sup> <img alt="파이썬" src="https://img.shields.io/badge/%ED%8C%8C%EC%9D%B4%EC%8D%AC-2563EB?style=flat-square" height="16"></sup> <img alt="AI" src="https://img.shields.io/badge/AI-0891B2?style=flat-square" height="16"></sup> - <small>2026-09-15</small></p>
 <p><a href="https://satin-jaw-c6c.notion.site/9-07-3d403280d84c8004a5e4d648c8f4f5b4">코드리뷰 9.07</a> - <img alt="팀프로젝트" src="https://img.shields.io/badge/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-6366F1?style=flat-square" height="16"></sup> <img alt="파이썬" src="https://img.shields.io/badge/%ED%8C%8C%EC%9D%B4%EC%8D%AC-2563EB?style=flat-square" height="16"></sup> - <small>2026-09-07</small></p>
 <p><a href="https://satin-jaw-c6c.notion.site/R2-3d203280d84c808b9ddcfb37785bee12">R2 스토리지에 이미지 저장</a> - <img alt="팀프로젝트" src="https://img.shields.io/badge/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-6366F1?style=flat-square" height="16"></sup> <img alt="파이썬" src="https://img.shields.io/badge/%ED%8C%8C%EC%9D%B4%EC%8D%AC-2563EB?style=flat-square" height="16"></sup> - <small>2026-09-05</small></p>
+<p><a href="https://satin-jaw-c6c.notion.site/2eb03280d84c80a09c44d34b28c1fc5b">More on NOTION</a></p>
 <!-- NOTION-POSTS:END -->
 </td>
 <td width="33%" valign="top">
