@@ -29,7 +29,8 @@ Here are some ideas to get you started:
 <td width="33%" valign="top">
 <h3>Recent releases</h3>
 <!-- RELEASES:START -->
-<p>릴리스 목록 준비 중...</p>
+<p><a href="https://github.com/xxoa000/topick/releases/tag/v1.0.0">topick v1.0.0</a> - 2026-10-14</p>
+<p><a href="https://github.com/xxoa000/topick/releases">More recent releases</a></p>
 <!-- RELEASES:END -->
 </td>
 <td width="34%" valign="top">
