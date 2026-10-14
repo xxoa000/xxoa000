@@ -21,30 +21,24 @@ Here are some ideas to get you started:
 -->
 
 <table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Recent releases</h3>
-
+<tr>
+<td width="33%" valign="top">
+<h3>Recent releases</h3>
 <!-- RELEASES:START -->
-릴리스 목록 준비 중
+<p>릴리스 목록 준비 중</p>
 <!-- RELEASES:END -->
-
-    </td>
-    <td width="34%" valign="top">
-      <h3>NOTION</h3>
-
+</td>
+<td width="34%" valign="top">
+<h3>NOTION</h3>
 <!-- NOTION-POSTS:START -->
-노션 글 목록 준비 중
+<p>노션 글 목록 준비 중</p>
 <!-- NOTION-POSTS:END -->
-
-    </td>
-    <td width="33%" valign="top">
-      <h3>TIL</h3>
-
+</td>
+<td width="33%" valign="top">
+<h3>TIL</h3>
 <!-- TIL:START -->
-TIL 목록 준비 중
+<p>TIL 목록 준비 중</p>
 <!-- TIL:END -->
-
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
