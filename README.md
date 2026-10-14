@@ -14,6 +14,9 @@
 
 <hr>
 
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=velog)](https://velog.io/@xxoa000)<br>
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=xxoa000)](https://github.com/xxoa000/velog-readme-stats)
+
 ### Git Actions를 이용한 README.md 자동연동
 <table>
 <tr>
