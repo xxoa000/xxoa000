@@ -23,5 +23,13 @@ Here are some ideas to get you started:
 ### 📚 최근 학습 기록
 
 <!-- NOTION-POSTS:START -->
-노션 학습 기록을 불러올 예정이야.
+
+| 날짜 | 태그 | 제목 |
+| --- | --- | --- |
+| 2026-10-13 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3f803280d84c81dba085f4387cfe5357) |
+| 2026-10-09 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3f403280d84c8165b230f9ede8b1d1c2) |
+| 2026-10-05 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3f103280d84c818490c4c16a5da77d27) |
+| 2026-10-02 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3ed03280d84c81fabdc1e92ae21bfd2d) |
+| 2026-09-30 | 운동기록 | [운동 기록](https://satin-jaw-c6c.notion.site/3ea03280d84c819a8be0f0bd2b094a52) |
+
 <!-- NOTION-POSTS:END -->
