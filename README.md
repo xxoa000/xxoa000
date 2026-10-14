@@ -1,3 +1,6 @@
+## 이력서
+[![Google Docs](https://img.shields.io/badge/Google%20Docs-이력서%20열람하기-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://docs.google.com/document/d/1ctoqPCKkGg-Phqg9OZ73qqLIGrOR1v_n/edit?usp=sharing&ouid=108200089625930464557&rtpof=true&sd=true)
+
 ## 기술스택
 <img alt="java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/><img alt="spring" src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"/><br>
 
