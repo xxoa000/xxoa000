@@ -60,6 +60,86 @@ def make_badge(tag_name, index):
     )
 
 
+def build_til():
+    root = Path("til-source")
+
+    if not (root / ".git").exists():
+        raise RuntimeError("TIL 저장소를 가져오지 못했음.")
+
+    def git(*args):
+        return subprocess.check_output(
+            ["git", "-C", str(root), *args],
+            text=True,
+        ).strip()
+
+    revision = git("rev-parse", "HEAD")
+    files = subprocess.check_output(
+        ["git", "-C", str(root), "ls-files", "-z"],
+    ).decode("utf-8").split("\0")
+
+    records = []
+
+    for filename in files:
+        path = Path(filename)
+
+        # 저장소 안내 파일과 설정 폴더는 목록에서 제외
+        if (
+            path.suffix.lower() != ".md"
+            or path.name.lower() == "readme.md"
+            or any(part.startswith(".") for part in path.parts)
+        ):
+            continue
+
+        commit_date = git(
+            "log", "-1", "--format=%cI", "--", filename
+        )
+        if not commit_date:
+            continue
+
+        text = (root / filename).read_text(encoding="utf-8-sig")
+        title = next(
+            (
+                line.strip()[2:].strip()
+                for line in text.splitlines()
+                if line.strip().startswith("# ")
+            ),
+            path.stem,
+        )
+
+        url = (
+            f"https://github.com/xxoa000/TIL/blob/"
+            f"{revision}/{quote(filename, safe='/')}"
+        )
+
+        records.append((commit_date, filename, title, url))
+
+    records.sort(key=lambda record: (record[0], record[1]), reverse=True)
+
+    entries = [
+        f'<p><a href="{escape(url)}">{escape(title)}</a>'
+        f" - {escape(date[:10])}</p>"
+        for date, filename, title, url in records[:5]
+    ]
+
+    entries.append(
+        '<p><a href="https://github.com/xxoa000/TIL">'
+        "More on TIL</a></p>"
+    )
+
+    return "\n".join(entries)
+
+def replace_section(text, start, end, content):
+    if text.count(start) != 1 or text.count(end) != 1:
+        raise RuntimeError(f"README의 {start} / {end} 주석을 확인해.")
+
+    left = text.index(start) + len(start)
+    right = text.index(end)
+
+    if left > right:
+        raise RuntimeError("README 주석 순서가 잘못됨.")
+
+    return text[:left] + "\n" + content + "\n" + text[right:]
+
 def main():
     readme = Path("README.md")
     original = readme.read_text(encoding="utf-8")
