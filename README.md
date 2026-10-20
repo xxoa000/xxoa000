@@ -42,8 +42,8 @@
 <td width="33%" valign="top">
 <h3>TIL</h3>
 <!-- TIL:START -->
-<p><a href="https://github.com/xxoa000/TIL/blob/62951683bb1d52c852684a69d518ab84adb2acbc/Python/Pytorch/SETUP.md">파이토치 설치</a> - 2026-10-18</p>
-<p><a href="https://github.com/xxoa000/TIL/blob/62951683bb1d52c852684a69d518ab84adb2acbc/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/0f587c6236ef44bce68166c4138a26e085668ec6/Python/Pytorch/SETUP.md">파이토치 설치</a> - 2026-10-18</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/0f587c6236ef44bce68166c4138a26e085668ec6/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
 <p><a href="https://github.com/xxoa000/TIL">More on TIL</a></p>
 <!-- TIL:END -->
 </td>
