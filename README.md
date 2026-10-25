@@ -42,9 +42,9 @@
 <td width="33%" valign="top">
 <h3>TIL</h3>
 <!-- TIL:START -->
-<p><a href="https://github.com/xxoa000/TIL/blob/fde40ff538d9653f787964d39c20444ef1813e8d/Python/MachineLearning/SETUP.md">개발환경 만들기</a> - 2026-10-20</p>
-<p><a href="https://github.com/xxoa000/TIL/blob/fde40ff538d9653f787964d39c20444ef1813e8d/Python/Pytorch/SETUP.md">파이토치 설치</a> - 2026-10-18</p>
-<p><a href="https://github.com/xxoa000/TIL/blob/fde40ff538d9653f787964d39c20444ef1813e8d/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/58a9a21720c362fa2a78616e51c3c7eae9f24690/Python/MachineLearning/SETUP.md">개발환경 만들기</a> - 2026-10-20</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/58a9a21720c362fa2a78616e51c3c7eae9f24690/Python/Pytorch/SETUP.md">파이토치 설치</a> - 2026-10-18</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/58a9a21720c362fa2a78616e51c3c7eae9f24690/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
 <p><a href="https://github.com/xxoa000/TIL">More on TIL</a></p>
 <!-- TIL:END -->
 </td>
