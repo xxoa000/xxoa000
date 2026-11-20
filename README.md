@@ -42,10 +42,11 @@
 <td width="33%" valign="top">
 <h3>TIL</h3>
 <!-- TIL:START -->
-<p><a href="https://github.com/xxoa000/TIL/blob/4525bc99d0cad315ef720ac9aaa3c49c282aaed4/Python/FastAPI/SETUP.md">전체 프로젝트 폴더 생성</a> - 2026-11-04</p>
-<p><a href="https://github.com/xxoa000/TIL/blob/4525bc99d0cad315ef720ac9aaa3c49c282aaed4/Python/MachineLearning/SETUP.md">개발환경 만들기</a> - 2026-11-01</p>
-<p><a href="https://github.com/xxoa000/TIL/blob/4525bc99d0cad315ef720ac9aaa3c49c282aaed4/Python/Pytorch/SETUP.md">파이토치 설치</a> - 2026-10-18</p>
-<p><a href="https://github.com/xxoa000/TIL/blob/4525bc99d0cad315ef720ac9aaa3c49c282aaed4/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/df6ad8121a61f5c4a74692a92e8b3592f5ac2915/VibeCoding/Ollama/SETUP.md">SETUP</a> - 2026-11-19</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/df6ad8121a61f5c4a74692a92e8b3592f5ac2915/Python/FastAPI/SETUP.md">전체 프로젝트 폴더 생성</a> - 2026-11-04</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/df6ad8121a61f5c4a74692a92e8b3592f5ac2915/Python/MachineLearning/SETUP.md">개발환경 만들기</a> - 2026-11-01</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/df6ad8121a61f5c4a74692a92e8b3592f5ac2915/Python/Pytorch/SETUP.md">파이토치 설치</a> - 2026-10-18</p>
+<p><a href="https://github.com/xxoa000/TIL/blob/df6ad8121a61f5c4a74692a92e8b3592f5ac2915/git/github-actions.md">GitHub Actions로 프로필 README 자동 업데이트</a> - 2026-10-14</p>
 <p><a href="https://github.com/xxoa000/TIL">More on TIL</a></p>
 <!-- TIL:END -->
 </td>
